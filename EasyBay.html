@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="EasyBay.css" />
+    <title>Succulent Shop</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="easybay_logo.png" alt="" />
+      <h1>EasyBay</h1>
+      <input
+        class="search"
+        type="search"
+        name="search"
+        placeholder="Seach for anything"
+      />
+      <a class="sign" href="#">Sign in</a>
+      <button class="shopping" onclick="showAlert()">
+        <img class="shopping_cart" src="shopping_cart.png" alt="" />
+      </button>
+    </header>
+    <nav>
+      <a href="#">Aeonium</a>
+      <a href="#">Andormischus</a>
+      <a href="#">Agave</a>
+      <a href="#">Aloe</a>
+      <a href="#">Anacampseros</a>
+      <a href="#">Aristaloe</a>
+      <a href="#">More...</a>
+    </nav>
+    <div class="text">
+      <p id="text">Your Source for Serious Succulent Specialties</p>
+    </div>
+    <main>
+      <div class="article">
+        <div class="paragh">
+          <p id="pr">
+            Discover Succulent <br />
+            varieties one pot or rack <br />
+            at a time!
+          </p>
+          <div class="discover">
+            <a id="discover" href="#">Discover</a>
+          </div>
+        </div>
+        <div class="photo">
+          <img id="tree" src="tree.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="aside">
+        <div class="blue-tree">
+          <img id="b-tree" src="blue_flower.png" alt="" />
+        </div>
+        <div class="SA">
+          <a id="soothing" href="#">Soothing Aloe</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="varieties">
+        <img class="img-tree" src="Aeonium.jpeg" alt="" />
+        <p id="name">Aeonium</p>
+      </div>
+      <div class="varieties">
+        <img class="img-tree" src="Agave.jpeg" alt="" />
+        <p id="name">Agave</p>
+      </div>
+      <div class="varieties">
+        <img class="img-tree" src="Cactus.jpeg" alt="" />
+        <p id="name">Cactus</p>
+      </div>
+      <div class="varieties">
+        <img class="img-tree" src="Echeveria.jpeg" alt="" />
+        <p id="name">Echeveria</p>
+      </div>
+      <div class="varieties">
+        <img class="img-tree" src="Sedum.jpeg" alt="" />
+        <p id="name">Sedum</p>
+      </div>
+      <div class="varieties">
+        <img class="img-tree" src="Sempervivum.jpeg" alt="" />
+        <p id="name">Sempervivum</p>
+      </div>
+    </footer>
+    <div class="cookie">
+      <div>
+        <img id="att" src="attention.png" alt="" />
+      </div>
+      <div>
+        <p id="p-cookie">
+          This site makes use of third-party cookies, by clicking "I accept"
+          <br />
+          you agree to the terms outlined in our
+          <a id="a-cookie" href="#">cookie policy</a>
+        </p>
+      </div>
+      <div>
+        <button class="accept" onclick="hide(this)">I Accept</button>
+      </div>
+    </div>
+    <script src="EasyBay.js"></script>
+  </body>
+</html>
